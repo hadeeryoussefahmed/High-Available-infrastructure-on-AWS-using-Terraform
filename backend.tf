@@ -5,6 +5,9 @@ backend "s3" {
   region = "us-east-1"
   dynamodb_table = "dynamodb-1"
 
+shared_credentials_file = ["/.aws/credentials"]
+  profile                  = "default"
+
 }
 
 
