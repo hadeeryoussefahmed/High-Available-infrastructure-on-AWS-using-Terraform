@@ -34,4 +34,7 @@ variable "INSTANCE_TYPE" {
   type = string
 }
 
+variable "key_name" {
+  type = string
+}
 
