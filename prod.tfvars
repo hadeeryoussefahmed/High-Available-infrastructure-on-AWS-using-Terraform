@@ -5,5 +5,5 @@ subnet_public = [ "10.0.1.0/24" ,"10.0.2.0/24"]
 subnet_private = [ "10.0.3.0/24","10.0.4.0/24" ]
 availability_zones=["eu-central-1a","eu-central-1b"]
 REGION                = "eu-central-1"
-AMI_ID                = "ami-03a6eaae9938c858c"
+AMI_ID                = "ami-04e601abe3e1a910f"
 INSTANCE_TYPE         = "t2.micro"
