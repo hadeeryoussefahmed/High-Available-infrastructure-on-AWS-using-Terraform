@@ -7,7 +7,7 @@ resource "tls_private_key" "rsa-key" {
 
 #create aws keypair by public key from tls_private_key 
 resource "aws_key_pair" "tf-key-pair" {
-    key_name ="tf-key-pair"
+    key_name = var.key_name
     public_key = tls_private_key.rsa-key.public_key_openssh
   
 }
