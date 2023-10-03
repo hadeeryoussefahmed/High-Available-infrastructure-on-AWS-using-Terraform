@@ -7,3 +7,4 @@ availability_zones=["us-east-1a","us-east-1b"]
 REGION                = "us-east-1"
 AMI_ID                = "ami-03a6eaae9938c858c"
 INSTANCE_TYPE         = "t2.micro"
+key_name = "dev-key"
