@@ -7,3 +7,4 @@ availability_zones=["eu-central-1a","eu-central-1b"]
 REGION                = "eu-central-1"
 AMI_ID                = "ami-04e601abe3e1a910f"
 INSTANCE_TYPE         = "t2.micro"
+key_name = "prod-key"
